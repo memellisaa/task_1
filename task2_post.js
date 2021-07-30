@@ -1,10 +1,9 @@
 const axios = require('axios')
 
 axios
-  .post('http://10.126.62.58:3000/users', {
+  .post('http://10.126.54.97:3000/subscribers', {
     name: 'Abdul',
-    age: 50,
-    gender: 'non-binary'
+    subscribedToChannel: 'Preface'
   })
   .then(res => {
     console.log(`statusCode: ${res.statusCode}`)

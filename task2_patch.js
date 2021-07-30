@@ -7,10 +7,9 @@
 const axios = require('axios')
 
 const res =  axios
-                .patch('http://10.126.62.58:3000/users/60fa72cea6abef22a4066766', { 
-                    name: 'Gigi',
-                    age: 70, 
-                    gender: "unknown"
+                .patch('http://10.126.54.97:3000/subscribers/60ff81447b55ede69c0e96fe', { 
+                    name: 'Henry',
+                    subscribedToChannel: 'LGBT+'
                 })
                 .then(res => {
                     console.log(`statusCode: ${res.statusCode}`)

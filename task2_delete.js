@@ -1,6 +1,6 @@
 const axios = require('axios');
   
-axios.delete('http://10.126.62.58:3000/users/60fa72d9a6abef22a4066768')
+axios.delete('http://10.126.54.97:3000/subscribers/60ff81447b55ede69c0e96fe')
     .then((res) => {
         console.log(`Status: ${res.status}`);
     }).catch((err) => {
